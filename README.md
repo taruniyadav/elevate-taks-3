@@ -1,8 +1,8 @@
-SQL Data Analysis Project - Ecommerce Dataset
-Objective
+**SQL Data Analysis Project - Ecommerce Dataset**
+**Objective**
 This project was developed as part of my internship, where the goal was to extract, manipulate, and analyze data from an existing Ecommerce SQL Database using SQL Server and Visual Studio Code. The dataset used is a simulated Ecommerce Product Dataset, which includes products from various categories like Electronics, Furniture, Fitness, and others.
 
-Tools & Technologies
+**Tools & Technologies**
 SQL Server (LocalDB)
 
 Visual Studio Code with MSSQL Extension
@@ -11,10 +11,10 @@ SQL (Structured Query Language)
 
 Windows OS
 
-Database Overview
+**Database Overview**
 A new database named EcommerceDB was created, and within this database, a table called Products was defined. The table consists of columns such as product ID, product name, price, and category. Sample data was inserted into the table to provide a realistic set of products across different categories for analysis.
 
-Queries and SQL Operations Performed
+**Queries and SQL Operations Performed**
 1. Basic Queries
 Performed simple data extraction using SELECT and filtered data with WHERE conditions. Additionally, data was sorted using the ORDER BY clause and grouped by categories using GROUP BY.
 
@@ -30,10 +30,10 @@ Created views to simplify recurring queries and make it easier to work with comp
 5. Indexes for Performance Optimization
 Added indexes on frequently queried columns such as price and category to improve the performance of search and filter operations. This optimization helps speed up query execution times, especially when dealing with large datasets.
 
-Screenshots
+**Screenshots**
 Screenshots of SQL queries and their results have been provided in the repository under the screenshots/ folder to show the output and validation of the executed queries.
 
-Conclusion
+**Conclusion**
 Through this project, I gained experience in:
 
 Extracting and manipulating structured data using SQL.
